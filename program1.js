@@ -15,7 +15,7 @@ const getTotalIsles = function (grid) {
 
      
       exploreIsland(row + 1, col); 
-      exploreIsland(row - 1, col);
+      exploreIsland(row - 1, col)
       exploreIsland(row, col + 1); 
       exploreIsland(row, col - 1); 
   }
