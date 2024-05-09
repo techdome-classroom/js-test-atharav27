@@ -24,8 +24,7 @@ const getTotalIsles = function (grid) {
   for (let i = 0; i < rows; i++) {
       for (let j = 0; j < cols; j++) {
           if (grid[i][j] === 'L') {
-              
-exploreIsland(i, j);
+              exploreIsland(i, j);
               
               count++;
           }
