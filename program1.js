@@ -9,8 +9,6 @@ const getTotalIsles = function (grid) {
       if (row < 0 || row >= rows || col < 0 || col >= cols || grid[row][col] === 'W') {
           return;
       }
-
-
       grid[row][col] = 'W';
       exploreIsland(row + 1, col); 
       exploreIsland(row - 1, col)
