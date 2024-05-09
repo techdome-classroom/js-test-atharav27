@@ -10,7 +10,7 @@ const getTotalIsles = function (grid) {
           return;
       }
 
-      // Mark the current cell as visited
+
       grid[row][col] = 'W';
 
       // Explore neighboring cells
