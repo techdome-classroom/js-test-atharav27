@@ -11,6 +11,7 @@ const getTotalIsles = function (grid) {
       }
 
 
+      
       grid[row][col] = 'W';
 
      
