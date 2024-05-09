@@ -6,7 +6,7 @@ const getTotalIsles = function (grid) {
   function exploreIsland(row, col) {
     if (
       row < 0 ||
-      row >= rows ||
+      row >= rows |
       col < 0 ||
       col >= cols ||
       grid[row][col] === "W"
