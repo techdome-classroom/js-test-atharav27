@@ -24,7 +24,7 @@ const getTotalIsles = function (grid) {
   for (let i = 0; i < rows; i++) {
       for (let j = 0; j < cols; j++) {
           
-        if (grid[i][j] === 'L') {
+      if (grid[i][j] === 'L') {
               // Explore the island starting from this cell
               exploreIsland(i, j);
               // Increment the count of distinct islands
