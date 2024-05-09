@@ -5,7 +5,7 @@ const getTotalIsles = function (grid) {
 
   
   function exploreIsland(row, col) {
-      // Check if the current cell is within bounds and is land
+     
       if (row < 0 || row >= rows || col < 0 || col >= cols || grid[row][col] === 'W') {
           return;
       }
