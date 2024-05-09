@@ -14,7 +14,7 @@ const getTotalIsles = function (grid) {
       grid[row][col] = 'W';
 
       // Explore neighboring cells
-      exploreIsland(row + 1, col); // down
+      exploreIsland(row + 1, col); // dow
       exploreIsland(row - 1, col);
       exploreIsland(row, col + 1); 
       exploreIsland(row, col - 1); 
