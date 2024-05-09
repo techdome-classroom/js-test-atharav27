@@ -20,7 +20,7 @@ const getTotalIsles = function (grid) {
       exploreIsland(row, col - 1); // left
   }
 
-  // Iterate through each cell in the grid
+  
   for (let i = 0; i < rows; i++) {
       for (let j = 0; j < cols; j++) {
           // If the current cell is land and hasn't been visited yet
