@@ -1,7 +1,7 @@
 const getTotalIsles = function (grid) {
   const rows = grid.length
   const cols = grid[0].length
-  let count = 0;
+  let count = 0
 
   
   function exploreIsland(row, col) {
